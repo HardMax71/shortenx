@@ -2,6 +2,11 @@
 
 ShortenX is a modern, stylish URL shortener built using [NiceGUI](https://nicegui.io/) for the front-end and [SQLAlchemy](https://www.sqlalchemy.org/) for the database layer. It features a glassmorphic UI design, dynamic notifications, and an intuitive layout to create shortened links quickly. The interface includes real-time statistics (total links and total visits) and a neat result card with Copy and Test buttons for each generated short URL.
 
+> Long story short, wanted to try out NiceGUI and this was the result. 
+> Spent 90/10 fixing style/actually implementing functionality :(
+> Unless really needed, use FastAPI/Flask + Jinja2 for web apps, 
+> styling issues are not worth that. 
+
 ![img.png](img.png)
 
 ## Features
